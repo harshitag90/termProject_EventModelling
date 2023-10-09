@@ -1,0 +1,30 @@
+                                   Pedestrian Evacuation Model
+
+
+
+The zip file includes following folders with files:
+
+celldevs_pedestrianevacuation	Contains code regarding Cell-DEVS Models with the Cadmium V2 Simulator
+	pedestrianEvacuation_config.Json file       
+	State.hpp
+	pedestrianEvacuation_grid_cell.hpp
+	main_grid_pedestrianEvacuation.cpp
+	Csv log files
+	
+pedestrian_evacuation Contains implementation of Cell DEVS
+    PEDESTRIANMA file
+	pedestrianevac.pal file
+	PEDESTRIANMADRAW file
+	PEDESTRIANMALOG file
+	Paper referred
+	PedestrianEvacuationProject Video
+
+
+Running Instructions for Cell DEVS with Cadmium Simulator:
+As per the implementation for evacuation strategy, it is considered that there are pedestrians with 4 different cell states.
+Therefore, different logic is applied for each cell state.
+1. Change the paramters of Json configuration file and check the evacuation strategy for pedestrian with cell state 1 (Move upward first, and then to the left if there is a wall.)
+2. Change the parameters of Json configuration file and check the evacuation strategy for pedestrian with cell state 2 (Move downward first, and then to the right if there is a wall.)
+
+Refer the project report for more details.  
+

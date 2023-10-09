@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDPlusPlus_Builder_Version_1.0.0>
+  <top>
+    <components> pedestrianevacuation&#xd;</components>
+  </top>
+  <pedestrianevacuation>
+    <type> cell&#xd;</type>
+    <width> 20&#xd;</width>
+    <height> 20&#xd;</height>
+    <delay> transport&#xd;</delay>
+    <defaultDelayTime> 100&#xd;</defaultDelayTime>
+    <border> wrapped &#xd;</border>
+    <neighbors> pedestrianevacuation(-1,-1) pedestrianevacuation(-1,0) pedestrianevacuation(-1,1) &#xd;</neighbors>
+    <neighbors> pedestrianevacuation(0,-1)  pedestrianevacuation(0,0)  pedestrianevacuation(0,1)&#xd;</neighbors>
+    <neighbors> pedestrianevacuation(1,-1)  pedestrianevacuation(1,0)  pedestrianevacuation(1,1)&#xd;</neighbors>
+    <comment>%%% state values %%%%&#xd;</comment>
+    <comment> 0 - Empty cell&#xd;</comment>
+    <comment> 1 - cell occupied by an up walker&#xd;</comment>
+    <comment> 2 - cell occupied by a down walker&#xd;</comment>
+    <comment> 3 - cell with state 1 has reached a wall and is going left&#xd;</comment>
+    <comment> 4 - cell with state 2 has reached a wall and is going right&#xd;</comment>
+    <comment> 5 - wall cell&#xd;</comment>
+    <initialvalue> 0&#xd;</initialvalue>
+    <initialrowvalue>  0      55555555555555555555&#xd;</initialrowvalue>
+    <initialrowvalue>  1      50000000100000004005&#xd;</initialrowvalue>
+    <initialrowvalue>  2      50000000000000000005&#xd;</initialrowvalue>
+    <initialrowvalue>  3      54000000000010000005&#xd;</initialrowvalue>
+    <initialrowvalue>  4      50000000000000000005&#xd;</initialrowvalue>
+    <initialrowvalue>  5      50000000000000000005&#xd;</initialrowvalue>
+    <initialrowvalue>  6      50000000000000000005&#xd;</initialrowvalue>
+    <initialrowvalue>  7      50000000000000000005&#xd;</initialrowvalue>
+    <initialrowvalue>  8      50000000000000000035&#xd;</initialrowvalue>
+    <initialrowvalue>  9      50000000000020000005&#xd;</initialrowvalue>
+    <initialrowvalue> 10      50000000000012000005&#xd;</initialrowvalue>
+    <initialrowvalue> 11      50100000000000000005&#xd;</initialrowvalue>
+    <initialrowvalue> 12      53000000000000000005&#xd;</initialrowvalue>
+    <initialrowvalue> 13      50000000000000200005&#xd;</initialrowvalue>
+    <initialrowvalue> 14      50000000000000000005&#xd;</initialrowvalue>
+    <initialrowvalue> 15      50000012000000000005&#xd;</initialrowvalue>
+    <initialrowvalue> 16      50000000000000000005&#xd;</initialrowvalue>
+    <initialrowvalue> 17      50000000000000000005&#xd;</initialrowvalue>
+    <initialrowvalue> 18      51000000000200003005&#xd;</initialrowvalue>
+    <initialrowvalue> 19      55555555550555555555&#xd;</initialrowvalue>
+    <localtransition> pedestrianevacuation-rule&#xd;</localtransition>
+  </pedestrianevacuation>
+</CDPlusPlus_Builder_Version_1.0.0>

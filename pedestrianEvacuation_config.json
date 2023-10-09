@@ -1,0 +1,41 @@
+{
+  "scenario": {
+    "shape": [5, 5],
+    "origin": [0, 0],
+    "wrapped": true
+  },
+  "cells": {
+    "default": {
+      "delay": "inertial",
+      "cell_type": "pedestrianEvacuation",
+      "state": {
+        "cellstate":2,
+        "x":5,
+        "y":0,
+        "exit_locations": [
+          [{"x": 6, "y":9}],
+          [{"x":9, "y":5}]
+        ],
+        "wall": [
+          [{"x": 5, "y":5}]
+        ],
+        "reached_exit" : 0
+      },
+      
+      "neighborhood": [
+        {
+          "type": "moore",
+          "vicinity": 1,
+          "range": 1
+        },
+        {
+          "type": "relative",
+          "vicinity": 1,
+          "neighbors": [
+            [0, 0]
+          ]
+        }
+      ]
+    }
+  }
+}
